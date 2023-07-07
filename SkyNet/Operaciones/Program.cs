@@ -3,9 +3,9 @@ using AdminSkyNet.DTO;
 using System;
 using System.Collections.Generic;
 
-namespace SkyNet.Operaciones
+namespace SkyNet
 {
-    public partial class operaciones
+    public partial class Program
     {
 
         static EliminadorDAL eliminadorDAL = new EliminadorDAL();

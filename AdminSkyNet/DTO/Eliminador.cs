@@ -33,8 +33,7 @@ namespace AdminSkyNet.DTO
             return "*******************************************" +
                    "\nNúmero de Serie : " + n_Serie +
                    "\nTipo Eliminador : " + TipoEliminador +
-                   "\nObjetivo        : " + objetivo +
-                   "*******************************************";
+                   "\nObjetivo        : " + objetivo ;
         }
 
 

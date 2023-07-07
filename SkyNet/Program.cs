@@ -17,6 +17,7 @@ namespace SkyNet
         static bool Menu()
         {
             Console.WriteLine("****************Bienvenido*********************");
+
             bool ok = true;
             Console.WriteLine("1. Ingresar ");
             Console.WriteLine("2. Buscar ");
@@ -34,7 +35,7 @@ namespace SkyNet
                     Buscar();
                     break;
                 case "3":
-                    Modificar();
+                    Mostrar();
                     break;
                 case "4":
                     Eliminar();
